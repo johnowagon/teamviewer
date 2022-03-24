@@ -1,0 +1,50 @@
+.buttonHolder{
+  text-align: center;
+}
+.button{
+  margin-top: 80px;
+  height: 50px;
+  width: 400px;
+  font-size: large;
+  text-align: center;
+  font-family: monospace;
+  box-shadow: 2px 2px 5px blue;
+  border-radius: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 1px;
+}
+.logo{
+  display: block;
+  max-width: 100px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform: translateZ(0);
+}
+.logo:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.centered{
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.table-container{
+  width: 400px;
+}
+.teamInfo{
+  display:flex; 
+  flex-direction:row;
+}
+.schedItem-contain{
+  width: min-content;
+}
