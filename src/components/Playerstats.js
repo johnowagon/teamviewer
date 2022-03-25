@@ -13,13 +13,10 @@ export default function Playerstats(props){
     useEffect(() => {
         async function getData(){
             setIsReady(false)
-            await axios.get(`https://nhl.bamcontent.com/images/headshots/current/168x168/${urlInput}.jpg`).then((res) => {//gets player headshot
-                //console.log(res);
-                setPlayerImage(res.config.url)
-            })
-
+            
             await axios.get(`https://statsapi.web.nhl.com/api/v1/people/${urlInput}/stats?stats=yearByYear`).then((res) => {//gets player stats
                 //console.log(res)
+                setPlayerImage(1)
                 setPlayer(res.data.stats[0].splits)
                 setIsReady(true);
             })
@@ -38,7 +35,6 @@ export default function Playerstats(props){
                 (isReady && player ? (
                     <div>
                         <Text size='lg' weight={500} underline>{props.playerId[1]}</Text>
-                        <Image src={playerImage} width={120} height={150}/>
                         <Table striped horizontalSpacing={-1}/* <- weird mantine trick? */ verticalSpacing='xs'>
                             <thead>
                                 {props.playerId[2] === 'Goalie' ? (
