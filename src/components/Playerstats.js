@@ -9,11 +9,11 @@ export default function Playerstats(props){
     const [isReady, setIsReady] = useState(false)
 
     let urlInput = props.playerId[0]//needed because i was having trouble accessing array indicies in the string modifier things -- template literals.
-
+    axios.defaults.withCredentials = true;
     useEffect(() => {
         async function getData(){
             setIsReady(false)
-            await axios.get(`images/headshots/current/168x168/${urlInput}.jpg`).then((res) => {//gets player headshot
+            await axios.get(`http://nhl.bamcontent.com/images/headshots/current/168x168/${urlInput}.jpg`).then((res) => {//gets player headshot
                 //console.log(res);
                 setPlayerImage(res.config.url)
             })

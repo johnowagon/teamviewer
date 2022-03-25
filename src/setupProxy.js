@@ -1,11 +1,7 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
+const cors = require('cors')
 
-module.exports = function(app) {
-  app.use(
-    '/images/headshots/current/168x168/',
-    createProxyMiddleware({
-      target: 'http://nhl.bamcontent.com',
-      changeOrigin: true,
-    })
-  );
-};
+app.use(cors({
+    origin: "https://johnowagon.github.io/teamviewer/",
+    credentials: true
+}))
