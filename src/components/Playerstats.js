@@ -13,7 +13,7 @@ export default function Playerstats(props){
     useEffect(() => {
         async function getData(){
             setIsReady(false)
-            await axios.get(`http://nhl.bamcontent.com/images/headshots/current/168x168/${urlInput}.jpg`).then((res) => {//gets player headshot
+            await axios.get(`/images/headshots/current/168x168/${urlInput}.jpg`).then((res) => {//gets player headshot
                 //console.log(res);
                 setPlayerImage(res.config.url)
             })

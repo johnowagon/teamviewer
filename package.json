@@ -1,6 +1,7 @@
 {
   "name": "nhl",
   "version": "0.1.0",
+  "proxy":"http://nhl.bamcontent.com",
   "homepage": "https://johnowagon.github.io/teamviewer/",
   "private": true,
   "dependencies": {
