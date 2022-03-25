@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/teamviewer/static/css/main.4fa3aa4f.chunk.css",
-    "main.js": "/teamviewer/static/js/main.ec85b948.chunk.js",
-    "main.js.map": "/teamviewer/static/js/main.ec85b948.chunk.js.map",
+    "main.js": "/teamviewer/static/js/main.7bb4c15f.chunk.js",
+    "main.js.map": "/teamviewer/static/js/main.7bb4c15f.chunk.js.map",
     "runtime-main.js": "/teamviewer/static/js/runtime-main.2bce7b2b.js",
     "runtime-main.js.map": "/teamviewer/static/js/runtime-main.2bce7b2b.js.map",
     "static/css/2.f4992099.chunk.css": "/teamviewer/static/css/2.f4992099.chunk.css",
-    "static/js/2.69a87693.chunk.js": "/teamviewer/static/js/2.69a87693.chunk.js",
-    "static/js/2.69a87693.chunk.js.map": "/teamviewer/static/js/2.69a87693.chunk.js.map",
+    "static/js/2.9f289077.chunk.js": "/teamviewer/static/js/2.9f289077.chunk.js",
+    "static/js/2.9f289077.chunk.js.map": "/teamviewer/static/js/2.9f289077.chunk.js.map",
     "static/js/3.54be52a1.chunk.js": "/teamviewer/static/js/3.54be52a1.chunk.js",
     "static/js/3.54be52a1.chunk.js.map": "/teamviewer/static/js/3.54be52a1.chunk.js.map",
     "index.html": "/teamviewer/index.html",
     "static/css/2.f4992099.chunk.css.map": "/teamviewer/static/css/2.f4992099.chunk.css.map",
     "static/css/main.4fa3aa4f.chunk.css.map": "/teamviewer/static/css/main.4fa3aa4f.chunk.css.map",
-    "static/js/2.69a87693.chunk.js.LICENSE.txt": "/teamviewer/static/js/2.69a87693.chunk.js.LICENSE.txt",
+    "static/js/2.9f289077.chunk.js.LICENSE.txt": "/teamviewer/static/js/2.9f289077.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/teamviewer/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.2bce7b2b.js",
     "static/css/2.f4992099.chunk.css",
-    "static/js/2.69a87693.chunk.js",
+    "static/js/2.9f289077.chunk.js",
     "static/css/main.4fa3aa4f.chunk.css",
-    "static/js/main.ec85b948.chunk.js"
+    "static/js/main.7bb4c15f.chunk.js"
   ]
 }
