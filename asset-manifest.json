@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/teamviewer/static/css/main.4fa3aa4f.chunk.css",
-    "main.js": "/teamviewer/static/js/main.587db3a9.chunk.js",
-    "main.js.map": "/teamviewer/static/js/main.587db3a9.chunk.js.map",
+    "main.js": "/teamviewer/static/js/main.ec85b948.chunk.js",
+    "main.js.map": "/teamviewer/static/js/main.ec85b948.chunk.js.map",
     "runtime-main.js": "/teamviewer/static/js/runtime-main.2bce7b2b.js",
     "runtime-main.js.map": "/teamviewer/static/js/runtime-main.2bce7b2b.js.map",
     "static/css/2.f4992099.chunk.css": "/teamviewer/static/css/2.f4992099.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.f4992099.chunk.css",
     "static/js/2.69a87693.chunk.js",
     "static/css/main.4fa3aa4f.chunk.css",
-    "static/js/main.587db3a9.chunk.js"
+    "static/js/main.ec85b948.chunk.js"
   ]
 }
