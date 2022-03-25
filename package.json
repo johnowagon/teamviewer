@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage" : "https://johnowagon.github.io/teamviewer/",
   "private": true,
+  "proxy": "http://nhl.bamcontent.com/",
   "dependencies": {
     "@mantine/core": "^4.0.7",
     "@nhl-api/teams": "^3.1.4",
