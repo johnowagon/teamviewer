@@ -4,7 +4,7 @@ import Schedule from './Schedule'
 import Logo from './Logo'
 import "react-multi-carousel/lib/styles.css";
 import Carousel from 'react-multi-carousel';
-import { Grid, Space, Group, Divider, Title, Box } from '@mantine/core'
+import { Grid, Space, Group, Text, Title, Box, Center, Anchor } from '@mantine/core'
 import TeamViewer from './TeamViewer'
 import SchedHead from './SchedHead'
 import Playerstats from './Playerstats'
@@ -84,6 +84,7 @@ export default function Populate() {
                 <Grid.Col span={1}><Schedule id={id}/></Grid.Col>
                 <Grid.Col span={1}><Playerstats playerId={playerId}/></Grid.Col>
             </Grid>
+            <Center><Text color='dimmed' size='md'>Made by <Anchor href="https://www.linkedin.com/in/john-aldrete-73b373232/">John Aldrete</Anchor> using React. <Anchor href="https://github.com/johnowagon/teamviewer">Source code.</Anchor></Text></Center>
         </div>
     )
 }
