@@ -13,7 +13,7 @@ export default function Playerstats(props){
     useEffect(() => {
         async function getData(){
             setIsReady(false)
-
+            
             await axios.get(`https://statsapi.web.nhl.com/api/v1/people/${urlInput}/stats?stats=yearByYear`).then((res) => {//gets player stats
                 //console.log(res)
                 setPlayerImage(1)
