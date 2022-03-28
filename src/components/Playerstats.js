@@ -9,7 +9,6 @@ export default function Playerstats(props){
     const [isReady, setIsReady] = useState(false)
 
     let urlInput = props.playerId[0]//needed because i was having trouble accessing array indicies in the string modifier things -- template literals.
-    axios.defaults.withCredentials = true;
     useEffect(() => {
         async function getData(){
             setIsReady(false)
